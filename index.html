@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CAUGHT EM'</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+
+    </head>
+
+    <body>
+        <h1>CAUGHT EM'</h1>
+
+
+        <div class="vote-buttons">
+            <span id="like-count">0</span><button id="like-button"></button>
+            <br>
+            <span id="disliked-count">0</span><button id="dislike-button"></button>
+        </div>
+        <div id="content-box">
+    <!--Left Side,display pokemon list -->
+    <div id="pokemon-list"></div>
+
+            <div id="pokemon-info">
+                <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png">
+                <div id="pokemon-types">
+                    <span class="type-box">GRASS</span><span class="type-box">POISON</span>
+            </div>
+            <div id="pokemon-description"></div>
+    <!-- Right side, display pokemon info -->
+    <div id="pokemon-info">
+
+        </div>
+    </body>
+</html>
